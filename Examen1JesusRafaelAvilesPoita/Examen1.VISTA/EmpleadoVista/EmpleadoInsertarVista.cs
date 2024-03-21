@@ -41,7 +41,7 @@ namespace Examen1.VISTA.EmpleadoVista
             u.FechaContratacion = dateTimePicker1.Value;
 
             bss.InsertarUsuarioBss(u);
-            MessageBox.Show("Se guardo correctamente El Usuario");
+            MessageBox.Show("Se guardo correctamente El Empleado");
         }
     }
 }
